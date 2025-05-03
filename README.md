@@ -20,7 +20,11 @@ CSS
 
 JavaScript
 
-The project is hosted on GitHub .
+The project is hosted on GitHub.
+
+Formspree also used in the contact and room booking pages.
+Formspree ensures smooth, seamless form handling, and provides the benefit of no backend infrastructure while maintaining secure data handling for basic form submissions.
+Anti-Spam Honeypot - To help protect the forms from automated spam submissions, an anti-spam honeypot field has been included in both the Contact Us and Book a Room forms.
 
 Notes
 All work is original unless otherwise noted.

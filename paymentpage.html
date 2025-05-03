@@ -18,8 +18,7 @@
         </div>
     </div>
    
-
-
+    
     <div class="container">
         <h1>Room Booking Payment</h1>
         <form action="/process-payment" method="POST">
@@ -38,7 +37,10 @@
             <label for="cvv">CVV</label>
             <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
 
-            <button type="submit">Pay Now</button>
+            <button type="submit" onclick="window.location.href='bookingconfirmation.html'" 
+                                style="background-color: #7D1B1B; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">
+                            Confirm Booking
+                        </button>
         </form>
     </div>
 

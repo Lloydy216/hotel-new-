@@ -1,6 +1,6 @@
 // script.js
 
-// 
+ // Toggle visibility of the mobile menu
 function toggleMenu() {
             const menu = document.getElementById('menu');
             if (menu.style.display === 'none' || menu.style.display === '') {
@@ -9,4 +9,4 @@ function toggleMenu() {
                 menu.style.display = 'none';
             }
         }
-console.log("Hello, world!");       
+
