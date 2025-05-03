@@ -41,6 +41,15 @@
             <input type="date" id="checkout" name="checkout" required>
 
             <!-- Dropdown for room selection with data attributes for cost -->
+            <!-- Room availability checker -->
+<label for="roomCheck">Check Room Number:</label>
+<input type="text" id="roomCheck" placeholder="e.g. 101" style="background-color: #ffffff; color: #7D1B1B;">
+<button type="button" onclick="checkAvailability()" style="background-color: #7D1B1B; color: white; border: none; padding: 5px 10px; font-size: 14px; cursor: pointer; border-radius: 5px; margin-left: 5px;">
+    Check Availability
+</button>
+<p id="availabilityResult" style="margin-top: 10px; font-weight: bold;"></p>
+
+
             <label for="room">Room:</label>
             <select id="room" name="room" style="background-color: #ffffff; color: #7D1B1B;" required>
                 <option value="" disabled selected>Select a room</option>
