@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
 <html lang="en">
 <head>
+    <!-- Character encoding for the document -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Room Booking Payment</title>
+   <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="index.css">
    
 <body>
+    <!-- Header displaying the hotel name -->
     <header>Hailey's Hotel</header>
-    
+    <!-- Navigation bar with a responsive hamburger menu -->
     <div class="navbar">
         <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
         <div class="menu" id="menu" style="display: none;">
@@ -18,7 +22,7 @@
         </div>
     </div>
    
-    
+    <!-- Main content area for room booking payment -->
     <div class="container">
         <h1>Room Booking Payment</h1>
         <form action="/process-payment" method="POST">
@@ -44,11 +48,11 @@
         </form>
     </div>
 
-
+<!-- Footer section with copyright information -->
     <div class="footer">
         &copy; 2023 Hailey's Hotel. All rights reserved
     </div>
-
+<!-- Link to external JavaScript file for functionality like toggleMenu() -->
     <script src="script.js"></script>
 </body>
 </html>
