@@ -66,3 +66,5 @@ Any third-party resources used have been credited appropriately in the project f
   - Manually clicked every link on each page.
   - Verified that all internal navigation routes worked correctly.
 - **Result**: No broken or dead links found.
+
+Project deployed successfully and functions as it should, the following link is the live website https://lloydy216.github.io/hotel-new-/index.html
